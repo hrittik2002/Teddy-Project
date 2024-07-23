@@ -905,6 +905,9 @@ button:hover {
 }
 
 @media (max-width:600px){
+    .top-bar{
+        display: none;
+    }
     .product-item{
         width: 90%;
     }
@@ -928,6 +931,9 @@ button:hover {
         height: 40%;
     }
     .hero-banner{
+        display: none;
+    }
+    .footer-bottom .logo{
         display: none;
     }
 }
